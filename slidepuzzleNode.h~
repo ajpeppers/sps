@@ -1,0 +1,22 @@
+//slidepuzzleNode.cpp
+//A.J. Peppers
+//ajp4hrw
+//4-29-22
+#ifndef SLIDEPUZZLENODE_H
+#define SLIDEPUZZLENODE_H
+#include <iostream>
+#include <cstdlib>
+#include <algorithm>
+#include <vector>
+#include <sstream>
+#include <limits>
+using namespace std;
+class SlidePuzzleNode{
+ public:
+  SlidePuzzleNode();
+  int getDistance();
+  int** getTable();
+ private:
+  int distance;
+  int** table;
+}

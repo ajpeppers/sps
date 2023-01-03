@@ -1,0 +1,15 @@
+//slidepuzzleNode.cpp
+//A.J. Peppers
+//ajp4hrw
+//4-29-22
+#include <iostream>
+#include <cstdlib>
+#include <algorithm>
+#include <vector>
+#include <sstream>
+#include "slidepuzzleNode.h"
+using namespace std;
+
+SlidePuzzleNode::SlidePuzzleNode(int** table){
+  
+}
